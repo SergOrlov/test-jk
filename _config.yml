@@ -38,3 +38,4 @@ ga_tracking: UA-2709176-10
 
 plugins:
   - jekyll-seo-tag
+theme: jekyll-theme-cayman
