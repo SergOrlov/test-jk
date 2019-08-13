@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Just the Docs
 description: A Jekyll theme for documentation
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/just-the-docs/" # the subpath of your site, e.g. /blog
 url: "https://pmarsceill.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
@@ -38,4 +38,3 @@ ga_tracking: UA-2709176-10
 
 plugins:
   - jekyll-seo-tag
-theme: jekyll-theme-cayman
