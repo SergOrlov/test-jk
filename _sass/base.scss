@@ -63,6 +63,8 @@ p {
   margin-bottom: 1em;
 }
 
+
+
 a {
   color: $link-color;
   text-decoration: none;
@@ -80,6 +82,10 @@ a:not([class]) {
     background-size: 1px 1px;
 
   }
+}
+
+.side-bar a {
+  color: #93EA20;
 }
 
 code {
