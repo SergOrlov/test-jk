@@ -86,7 +86,18 @@ a:not([class]) {
 
 .side-bar a {
   color: #93EA20;
+  &:hover {
+    text-decoration: underline;
+  }
 }
+
+.navigation-list-link.active {
+  color: #ffffff !important;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 
 code {
   font-family: $mono-font-family;
