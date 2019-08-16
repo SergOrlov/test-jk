@@ -16,8 +16,8 @@ function toggleNav(){
   const search = document.querySelector('.js-search');
 
   addEvent(navTrigger, 'click', function(){
-    var text = navTrigger.innerText;
-    var textToggle = navTrigger.getAttribute('data-text-toggle');
+    // var text = navTrigger.innerText;
+    // var textToggle = navTrigger.getAttribute('data-text-toggle');
 
     nav.classList.toggle('nav-open');
     auxNav.classList.toggle('nav-open');
@@ -28,6 +28,36 @@ function toggleNav(){
     textToggle = text;
   })
 }
+
+/* mobile menu - s */
+var menu_trig = 1;
+
+function closeMenu() {
+    $('.js-menu').hide();
+    menu_trig = 1;
+}
+function openMenu() {
+    $('.js-menu').show();
+    menu_trig = 0;
+}
+function showClosedHamburger() {
+    $(".js-hamburger").removeClass('c-hamburger-x');
+}
+
+function showOpenedHamburger() {
+    $(".js-hamburger").addClass('c-hamburger-x');
+}
+
+function toggle_menu(){ //if flag = 1 ==> showOpenedHamburger(), else ==> showClosedHamburger()
+    if (menu_trig == 0) {
+        closeMenu();
+        showClosedHamburger();
+    } else {
+        openMenu();
+        showOpenedHamburger()
+    }
+}
+/* mobile menu - e */
 
 // Site search
 
