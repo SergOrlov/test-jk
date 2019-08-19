@@ -32,15 +32,13 @@ When using Windows Server 2016 On-Host proxy mode is very fast and will reduce t
 
 |              | **PRO**                                      |  **CON**                                                   |
 |:-------------|:---------------------------------------------|:-----------------------------------------------------------|
-| On-Host      |<div class="code-example" markdown="1">       |                                                            |
-|              |* Simplifies management                       | * Requires additional resources from the hypervisors (CPU, |
-|              |* Does not depend on third party VSS provider | Network IO and RAM) during the backup window, for IO       |
-|              |* Does not require additional                 | processing and optimization                                |
+| On-Host      |- Simplifies management                       | - Requires additional resources from the hypervisors (CPU, |
+|              |- Does not depend on third party VSS provider | Network IO and RAM) during the backup window, for IO       |
+|              |- Does not require additional                 | processing and optimization                                |
 |              |  hardware, load is spread over all           |                                                            |
 |              |  Hyper-V hosts                               |                                                            |
-|              |* Can be used on any Hyper-V                  |                                                            |
+|              |- Can be used on any Hyper-V                  |                                                            |
 |              |  infrastructures                             |                                                            |
-|              |</div>                                        |                                                            |
 |:-------------|:---------------------------------------------|:-----------------------------------------------------------|
 
 
