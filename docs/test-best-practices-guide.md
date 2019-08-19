@@ -28,11 +28,14 @@ When using Windows Server 2016 On-Host proxy mode is very fast and will reduce t
 {: .fs-5 .fw-300 }
 
 
-|              | **PRO**                                                                      |**CON**                                                               |
-|:-------------|:-----------------------------------------------------------------------------|:---------------------------------------------------------------------|
-|              | -Simplifies management                                                       |                                                                      |
-|  On-Host     | -Does not depend on third party VSS provider                                 | -Requires additional resources from the hypervisors (CPU, Network IO                                                                                                | and RAM) during the backup window, for IO processing and optimization|
-|              | -Does not require additional hardware, load is spread over all Hyper-V hosts |                                                                      |
-|              | -Can be used on any Hyper-V infrastructures                                  |                                                                      |
-|:-------------|:-----------------------------------------------------------------------------|:---------------------------------------------------------------------|
+<div class="code-example" markdown="1">
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+</div>
 
