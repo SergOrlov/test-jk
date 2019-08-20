@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alternate Active Full
-parent: power
+parent: aqw
 nav_order: 3
 ---
 
