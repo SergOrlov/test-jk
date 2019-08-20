@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Alternate Active Full
-parent: abc
-nav_order: 3
+title: Auto Unmount vPower NFS
+parent: powershell
+nav_order: 2
 ---
 
-# Alternate Active Full
+# Auto Unmount vPower NFS
 ## VeeamHub
 Veeamhub projects are community driven projects, and are not created by Veeam R&D nor validated by Veeam Q&A. They are maintained by community members which might be or not be Veeam employees. 
 
 ## Distributed under MIT license
-Copyright (c) 2016 VeeamHub
+Copyright (c) 2018 VeeamHub
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -20,8 +20,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Project Notes
 
-**Author:** Preben Berg
+**Author:** Niels Engelen
 
-**Function:** Allows you to schedule a monthly active full on different jobs randomly during the year
+**Function:** Allows you to auto unmount the vPower NFS datastore via Windows Task Manager
 
-**Usage:** Run code directly on the backup.
+**Usage:** Create a task via Windows Task Manager to run at a certain time.
+
