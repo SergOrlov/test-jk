@@ -2,7 +2,7 @@
 layout: default
 title: Alternate Active Full
 parent: powershell
-nav_order: 1
+nav_order: 3
 ---
 
 # Alternate Active Full
