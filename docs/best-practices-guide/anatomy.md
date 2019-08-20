@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Backup & Replication Anatomy
-parent: best-practices-guide
+parent: Best practices guide
 nav_order: 4
 ---
 

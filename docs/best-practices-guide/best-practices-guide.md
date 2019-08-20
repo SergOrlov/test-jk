@@ -1,6 +1,6 @@
 ---
 layout: default
-title: best-practices-guide
+title: Best practices guide
 nav_order: 2
 has_children: true
 permalink: /docs/best-practices-guide/

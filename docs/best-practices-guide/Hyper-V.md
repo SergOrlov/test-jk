@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hyper-V
-parent: best-practices-guide
+parent: Best practices guide
 nav_order: 3
 ---
 
