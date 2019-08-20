@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Auto Unmount vPower NFS
-parent: powershell
+parent: power
 nav_order: 4
 ---
 

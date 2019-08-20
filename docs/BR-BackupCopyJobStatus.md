@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HTML Report of all Veeam Backup Copy Jobs in Powershell
-parent: powershell
+parent: power
 nav_order: 5
 ---
 

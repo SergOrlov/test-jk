@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alternate Active Full
-parent: powershell
+parent: power
 nav_order: 3
 ---
 

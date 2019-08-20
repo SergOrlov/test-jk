@@ -1,7 +1,7 @@
 ---
 layout: default
 title: VeeamHub
-parent: powershell
+parent: power
 nav_order: 6
 ---
 
