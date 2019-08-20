@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Powershell
+title: best-practices-guide
 nav_order: 2
 has_children: true
 permalink: /docs/best-practices-guide/
