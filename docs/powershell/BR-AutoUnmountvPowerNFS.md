@@ -25,4 +25,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 **Function:** Allows you to auto unmount the vPower NFS datastore via Windows Task Manager
 
 **Usage:** Create a task via Windows Task Manager to run at a certain time.
-
