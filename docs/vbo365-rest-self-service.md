@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Self-Service Web Portal for Veeam Backup for Microsoft Office 365
-nav_order: 2
+nav_order: 4
 ---
 
 Self-Service Web Portal for Veeam Backup for Microsoft Office 365
